@@ -257,18 +257,18 @@ const Recipe = () => {
         <CardHeader 
           title={
             <div style={{ display: 'flex', alignItems: 'center' }}>
-            <Typography variant="h5" style={{ color: 'white', textAlign: 'left' }}>
-              <FontAwesomeIcon icon={faBowlFood} style={{ marginRight: '8px' }} />
-              RECIPES
-            </Typography>
-            <div>
-                <Link to="/Home">
-                <Button variant="text" sx={{ color: 'white'}} style ={{ marginLeft: '25px'}} >Home </Button>
-                </Link>
-                <Link to="/Travel">
-                <Button variant="text" sx={{ color: 'white'}} style ={{ marginLeft: '5px'}} >Travel </Button>
-                </Link>
-              </div>
+                <Typography variant="h5" style={{ color: 'white', textAlign: 'left' }}>
+                <FontAwesomeIcon icon={faBowlFood} style={{ marginRight: '8px' }} />
+                RECIPES
+                </Typography>
+                {/*<div>
+                    <Link to="/Home">
+                    <Button variant="text" sx={{ color: 'white'}} style ={{ marginLeft: '25px'}} >Home </Button>
+                    </Link>
+                    <Link to="/Travel">
+                    <Button variant="text" sx={{ color: 'white'}} style ={{ marginLeft: '5px'}} >Travel </Button>
+                    </Link>
+                </div>*/}
             </div>
             
           }
